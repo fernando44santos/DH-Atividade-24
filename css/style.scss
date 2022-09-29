@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.barrapreta {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #222;
+    color: #ffff;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    .textbarrapreta {
+        left: 82%;
+        position: absolute;
+    }
+
+    .slogan {
+        margin-left: 10%;
+       
+    }
+}
+
+header {
+    width: 100%;
+    height: 62px;
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+    ul{
+        list-style-type: none;
+        display: flex;
+        color: white;
+        font-family: roboto;
+        margin-right: 10%;
+    }
+    li{
+        margin-left: 0.6rem;
+    }
+}

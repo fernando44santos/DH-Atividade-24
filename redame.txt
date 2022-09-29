@@ -1,0 +1,764 @@
+aqui estão o css, pois o sass, acaba apagando as linhas quando estavmos passando do css para scss
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .barrapreta {
+        width: 100%;
+        height: 1.5rem;
+        background-color: #222;
+        color: #ffff;
+        font-family: roboto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+    .textbarrapreta {
+        left: 82%;
+        position: absolute;
+    }
+
+    .slogan {
+        margin-left: 10%;
+       
+    }
+    
+
+
+
+    header {
+        width: 100%;
+        height: 62px;
+        background-color: #F0A83E;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+
+    header .menu {
+        list-style-type: none;
+        display: flex;
+        color: white;
+        font-family: roboto;
+        margin-right: 10%;
+    }
+
+    /*Espaçamento entre intens de lista*/
+    header ul li {
+        margin-left: 0.6rem;
+    }
+
+    .cardcontainer {
+        width: 100%;
+        height: 27rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    .backg {
+        background-image: url(../img/-background\ 1.png);
+        background-size: cover;
+    }
+
+    .cardA {
+        width: 308px;
+        height: 35px;
+        background-color: white;
+        border-radius: 8px/8px;
+        position: relative;
+        margin-right: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #3C2313;
+
+    }
+
+    .cardB {
+        width: 158px;
+        height: 35px;
+        background-color: #F0A83E;
+        border-radius: 5px/5px;
+        margin-right: 6.2%;
+        font-family: Roboto;
+        size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffff;
+
+    }
+
+    .cardC {
+        font-family: Roboto;
+        margin-right: 4.2%;
+        size: 1rem;
+        color: #3C2313;
+    }
+
+
+    .cardcontainerB {
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .cardprodutosdestacados {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .cardprodutosdestacados h2 {
+        font-family: Roboto;
+    }
+
+    div .menu {
+        list-style-type: none;
+        display: flex;
+        margin-right: 60px;
+        color: #666666;
+        margin-right: 1%;
+        font-family: Roboto;
+    }
+
+    div ul li {
+        margin-left: 0.6rem;
+
+    }
+
+
+
+
+    .patamaior {
+        max-width: 100px;
+    }
+
+    .cardimgpai {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cardimg {
+        width: 265px;
+        height: 312px;
+        background-color: white;
+    }
+
+    .cardimg p {
+        font-family: Roboto;
+        size: 15px;
+    }
+
+    .color {
+        color: #F0A83E;
+
+
+    }
+
+    .cardcontatopai {
+        width: 100%;
+        height: 16rem;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: roboto;
+    }
+
+    .contato {
+        font-size: 25px;
+        color: #3C2313;
+    }
+
+    .infcontato {
+        width: 280px;
+        height: 35px;
+        border-radius: 8px/8px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+
+    }
+
+    .infcontato p {
+        margin-left: 2%;
+        font-size: 8px;
+    }
+
+
+    .cardpaisendclear {
+        width: 205px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+
+
+    }
+
+    .colorbg2 {
+        background-color: #3C2313;
+    }
+
+    .colorbg {
+        background-color: #F0A83E;
+    }
+
+    .colorclear {
+        background-color: #666666;
+    }
+
+
+    .infsendclear {
+
+        width: 100px;
+        height: 35px;
+        border-radius: 5px/5px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    footer {
+        width: 100%;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barraa {
+        width: 100%;
+        height: 60px;
+        background-color: #F0A83E;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cardsbarraa {
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sendemail {
+        width: 20rem;
+        display: flex;
+        list-style: none;
+        font-family: roboto;
+        margin-left: 1%;
+        align-items: center;
+        color: white;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 280px;
+        display: flex;
+       flex-direction: row;
+        align-content: center;
+        align-items: center;
+        
+        background-color: #3C2313;
+
+    }
+
+    .inffooter {
+        width: 12rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+
+    }
+
+    .icons {
+        display: flex;
+        color: white;
+
+
+    }
+
+    .imginf {
+
+        max-width: 5rem;
+
+    }
+
+    .position {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 5%;
+
+    }
+
+    .barrab {
+        width: 100%;
+        height: 40px;
+        background-color: black;
+    }
+
+    .infsendclearb {
+
+        width: 100px;
+        height: 35px;
+        background-color: #3C2313;
+        border-radius: 5px/5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .infcontatob {
+        width: 280px;
+        height: 35px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px/5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #A0A0A0;
+
+    }
+
+    .infcontatob p {
+        margin-left: 2%;
+    }
+
+    .barrab p {
+        margin-top: 1%;
+        font-family: Roboto;
+        color: white;
+    }
+
+    .logofooter {
+        width: 150px;
+        height: 25px;
+        position: absolute;
+        margin-left: 80%;
+
+    }
+
+    .footer {
+       
+
+    }
+
+
+@media (max-width:480px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .barrapreta {
+        width: 100%;
+        height: 1.5rem;
+        background-color: #222;
+        color: #ffff;
+        font-family: roboto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8%;
+        padding-right: 8%;
+
+    }
+
+    .textbarrapreta {
+        left: 75%;
+        position: absolute;
+    }
+
+    .barrapreta p {
+        font-size: 10px;
+    }
+
+    .slogan {
+        margin-right:10%;
+    }
+
+
+
+    header {
+        display: flex;
+        width: 100%;
+        height: 62px;
+        background-color: #F0A83E;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    header .menu {
+        list-style-type: none;
+        color: white;
+        font-family: roboto;
+        font-size: 10px;
+        margin-left:10%;
+        
+    }
+
+        /*Espaçamento entre intens de lista*/
+        header ul li {
+            margin-left: 0.6rem;
+        }
+
+        .cardcontainer {
+            width: 100%;
+            height: 27rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+
+        }
+
+        .backg {
+            background-image: url(../img/-background\ 1.png);
+            background-size: cover;
+        }
+
+        .cardA {
+            width: 308px;
+            height: 35px;
+            background-color: white;
+            border-radius: 8px/8px;
+            position: relative;
+            margin-right: 1%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3C2313;
+
+        }
+
+        .cardB {
+            width: 158px;
+            height: 35px;
+            background-color: #F0A83E;
+            border-radius: 8px/8px;
+            margin-right: 6.2%;
+            font-family: Roboto;
+            size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffff;
+
+        }
+
+        .cardC {
+            font-family: Roboto;
+            margin-right: 4.2%;
+            size: 1rem;
+            color: #3C2313;
+        }
+
+
+        .cardcontainerB {
+            width: 100%;
+            height: 85rem;
+            display: flex;
+            background-color: white;
+            flex-direction: column;
+        }
+
+        .cardprodutosdestacados {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        .cardprodutosdestacados h2 {
+            font-family: Roboto;
+        }
+
+        div .menu {
+            list-style-type: none;
+            display: flex;
+            margin-right: 60px;
+            color: #666666;
+            margin-right: 1%;
+            font-family: Roboto;
+        }
+
+        div ul li {
+            margin-left: 0.6rem;
+
+        }
+
+
+
+
+        .patamaior {
+            max-width: 100px;
+        }
+
+        .cardimgpai {
+            width: 100%;
+            height: 115rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .cardimg {
+            width: 265px;
+            height: 312px;
+            background-color: white;
+        }
+
+        .cardimg p {
+            font-family: Roboto;
+            size: 15px;
+        }
+
+        .color {
+            color: #F0A83E;
+
+
+        }
+
+        .cardcontatopai {
+            width: 100%;
+            height: 25rem;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-family: roboto;
+        }
+
+        .contato {
+            font-size: 25px;
+            color: #3C2313;
+        }
+
+        .infcontato {
+            width: 17.5rem;
+            height: 35px;
+            border-radius: 15px/15px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+
+        }
+
+        .infcontato p {
+            margin-left: 2%;
+            font-size: 8px;
+        }
+
+
+        .cardpaisendclear {
+            width: 28.2rem;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: space-around;
+
+
+        }
+
+        .colorbg2 {
+            background-color: #3C2313;
+        }
+
+        .colorbg {
+            background-color: #F0A83E;
+        }
+
+        .colorclear {
+            background-color: #666666;
+        }
+
+
+        .infsendclear {
+
+            width: 18.75rem;
+            height: 35px;
+            border-radius: 15px/15px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer {
+            width: 100%;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .barraa {
+            width: 100%;
+            height: 110px;
+            background-color: #F0A83E;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .cardsbarraa {
+            width: 25rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 5%;
+        }
+
+        .sendemail {
+            width: 20rem;
+            display: flex;
+            list-style: none;
+            font-family: roboto;
+            margin-left: 5%;
+            align-items: center;
+            color: white;
+        }
+
+
+        .footer {
+            width: 100%;
+            height: 380px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #3C2313;
+
+        }
+
+        .inffooter {
+            width: 12rem;
+            height: 15rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+
+
+        }
+
+        .icons {
+            display: flex;
+            color: white;
+
+
+        }
+
+        .imginf {
+
+            max-width: 5rem;
+
+        }
+
+        .position {
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 5%;
+
+        }
+
+        .barrab {
+            width: 100%;
+            height: 40px;
+            background-color: black;
+        }
+
+        .infsendclearb {
+
+            width: 100px;
+            height: 35px;
+            background-color: #3C2313;
+            border-radius: 12px/12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .infcontatob {
+            width: 280px;
+            height: 35px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 12px/12px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: #A0A0A0;
+
+        }
+
+        .infcontatob p {
+            margin-left: 2%;
+        }
+
+        .barrab p {
+            margin-top: 1%;
+            font-family: Roboto;
+            color: white;
+        }
+
+        .logofooter {
+            width: 150px;
+        }
+    }
