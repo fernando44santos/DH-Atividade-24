@@ -11,7 +11,7 @@
   height: 1.5rem;
   background-color: #222;
   color: white;
-  font-family: roboto;
+  font-family: "Roboto";
   display: flex;
   justify-content: space-between;
   padding-left: 8%;
@@ -38,7 +38,7 @@ header ul {
   list-style-type: none;
   display: flex;
   color: white;
-  font-family: roboto;
+  font-family: "Roboto";
   margin-right: 10%;
 }
 header li {
@@ -74,22 +74,87 @@ header li {
 .cardcontainerB .cardprodutosdestacados ul li {
   margin-left: 0.6rem;
 }
-.cardcontainerB .cardimgpai {
+
+.cardimgpai {
   width: 100%;
   height: 320px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.cardcontainerB .cardimgpai div {
+.cardimgpai div {
   width: 17rem;
   height: 20rem;
   background-color: white;
 }
-.cardcontainerB .cardimgpai div .color {
+.cardimgpai div .color {
   color: #F0A83E;
 }
-.cardcontainerB .cardimgpai div p {
+.cardimgpai div p {
   font-family: Roboto;
   size: 15px;
+}
+
+.cardcontatopai {
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Roboto";
+}
+.cardcontatopai .contato {
+  font-size: 25px;
+  color: #3C2313;
+}
+
+.contato {
+  font-size: 25px;
+  color: #3C2313;
+}
+
+.infcontato {
+  width: 280px;
+  height: 35px;
+  border-radius: 8px/8px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.infcontato p {
+  margin-left: 2%;
+  font-size: 8px;
+}
+
+.cardpaisendclear {
+  width: 205px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+}
+.cardpaisendclear .infsendclear {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px/5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorbg2 {
+  background-color: #3C2313;
+}
+
+.colorbg {
+  background-color: #F0A83E;
+}
+
+.colorclear {
+  background-color: #666666;
 }/*# sourceMappingURL=style.css.map */
